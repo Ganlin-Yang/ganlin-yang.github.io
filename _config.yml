@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yuqiang Yang(杨宇强)"
 title_separator          : "-"
 name                     : &name "Yuqiang Yang(杨宇强)"
-description              : &description "Master Student at South China University of Technology"
+description              : &description "Research&Development Engineer at Shanghai AI Lab"
 url                      : https://yuqiang-yang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yuqiang-yang.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Yuqiang Yang(杨宇强)"
   avatar           : "../files/photo-ver2.png"
-  bio              : "Master Student at South China University of Technology"
-  location         : "Shenzhen, China"
+  bio              : "Research&Development Engineer at Shanghai AI Lab"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=6bw40_kAAAAJ&hl=zh-CN&authuser=1"
   email            : "auyuqiangyang@gmail.com"
   researchgate     : 
   uri              : "https://www.zhihu.com/people/ben-san-qing-nian-45"
