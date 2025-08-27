@@ -51,236 +51,152 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 
 
 ## Research Experiences
-
-<div style="float:left; text-align:left"> <b>RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</b>  [<a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>,  <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a>]</div> <div style="float:right; text-align:right"><i>2022.10 - 2023.12</i></div>  
-<p>Accepted to IEEE Transaction on Industrial Electronics</p>
-<p>Advisor: Dr. Chen Chen, Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a></p>
-<ul>
-<li>
-    Developed a novel <b>hierarchical topology-guided</b> searching method to find whole-body kinodynamic trajectories in real time (≈30ms), striking good balance in the success rate and the efficiency.
-</li>
-<li>
-  <p> Derived and implemented a whole-body trajectory optimization method which naturally <b>integrates the planning and control module</b> (IPC) in an augmented Lagrangian differential dynamic programming (AL-DDP) form.</p>
-</li>
-<li>
-  <p>Utilized a <b>real-time constructed ESDF map</b> and a novel sphere decomposition for mobile manipulator to achieve one-shot collision detection against dynamic obstacles in batch.</p>
-</li>
-<li>
-Conducted extensive experiments to demonstrate the effectiveness of our framework in planning and executing whole-body collision-free
-trajectories with a high success rate (≈80%) and a excellent tracking accuracy among highly dynamic obstacles.
-</li>
-</ul>
-<center>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/esdf.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：2个小图在上、1个长图在下 -->
+  <div style="flex: 1; min-width: 300px;">
+    <!-- 上方：2个小图横向排列 -->
+    <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+      <img src="../files/esdf.gif" alt="ESDF Map" style="width: 48%; height: auto; object-fit: contain;">
+      <img src="../files/planning.gif" alt="Planning Trajectory" style="width: 48%; height: auto; object-fit: contain;">
     </div>
-    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/planning.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
+    <!-- 下方：1个长图全屏宽度 -->
+    <img src="../files/realwolrd.gif" alt="Real-World Experiment" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：标题、链接、期刊、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>, <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a>]</p>
+    <p>2024 IEEE Transaction on Industrial Electronics</p>
+    <p>• Proposed a hierarchical topology-guided search and AL-DDP-based optimization to solve whole-body kinodynamic planning in dynamic environments.<br>
+    • Achieved real-time planning (≈30ms) and ≈80% success rate with accurate collision detection via ESDF map and sphere decomposition.</p>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：1个图 -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="../files/open_door.gif" alt="Door Opening Demo" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：标题、链接、会议、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a>]</p>
+    <p>2023 IEEE Conference on Systems, Man, and Cybernetics</p>
+    <p>• Developed a Gaussian Process-based learning framework with WLN inverse kinematics for few-shot whole-body skill learning.<br>
+    • Enabled coordinated door opening with disturbance rejection, simplifying human guidance via admittance control.</p>
+  </div>
+</div>
+
+# Project Experiences
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：4个图（原2x2排列，保持4图在左侧） -->
+  <div style="flex: 1; min-width: 300px;">
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <img src="../files/h1-hosp.gif" alt="H1 in Hospital" style="width: 48%; height: auto; object-fit: contain;">
+      <img src="../files/h1-office.gif" alt="H1 in Office" style="width: 48%; height: auto; object-fit: contain;">
+      <img src="../files/h1-out.gif" alt="H1 Outdoors" style="width: 48%; height: auto; object-fit: contain;">
+      <img src="../files/h1-stair.gif" alt="H1 on Stairs" style="width: 48%; height: auto; object-fit: contain;">
     </div>
   </div>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/realwolrd.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
+  <!-- 右侧：标题、链接、状态、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Locomotion in complex terrain through reinforcement learning in Isaac lab</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/cv#rl">Video</a>]</p>
+    <p>• Used PPO algorithm with a fine-tuned reward function to train Unitree H1’s locomotion via curriculum learning.<br>
+    • Realized robust Sim-to-Sim transfer of RL policies to diverse photo-realistic environments in Nvidia Isaac Sim.</p>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：占位图（无原始图，保持左侧区域） -->
+  <div style="flex: 1; min-width: 300px;">
+    <div style="width: 100%; height: 300px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #666;">
+      AVP Motion Planning Visualization (Image Placeholder)
     </div>
   </div>
-  </center>
-
-<div style="float:left; text-align:left"><b>Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</b> 
-[<a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a>]</div> <div style="float:right; text-align:right"><i>2022.04 - 2022.09</i></div>
-<p> 
-Accepted to 2023 IEEE Conference on Systems, Man, and Cybernetics </p>
-<p> 
-Advisor: Prof. Chenguang Yang</p>
-<ul>
-<li>
-  <p>Proposed a
-whole-body learning from demonstration framework through <b>Gaussian Process</b>, which
-endows the mobile manipulator’s skill learning process with
-features of coordination working and
-disturbance rejection, after just <b>a few human demonstrations</b>.</p>
-</li>
-<li>
-  <p> Devised an efficient kinesthetic teaching method based on the <b>weighted least-norm (WLN)</b> inverse kinematics solution and an admittance controller, which facilitates human users to guide the mobile manipulator to perform tasks.</p>
-</li>
-<li>
-  <p> Implemented a model-based and robust <b>door opening</b> algorithm for mobile manipulator in a coordinated whole-body manner, even under <b>random disturbance</b>.</p>
-</li>
-</ul>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/open_door.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+  <!-- 右侧：标题、单位、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Risk-aware contingency motion planning under uncertainties for Automated Valet Parking(AVP)</h3>
+    <p>DJI Automotive</p>
+    <p>• Proposed Voronoi-based safe corridors and SplineGrid optimization for lateral bypass, plus iLQR for risk-aware longitudinal speed.<br>
+    • Handled prediction multimodality via tree-branch iLQR, ensuring safe trajectory under perception/prediction uncertainties.</p>
   </div>
+</div>
 
-## Project Experiences
-
-**Locomotion in complex terrain through reinforcement learning in Isaac lab** 
-[<a href="https://yuqiang-yang.github.io/cv#rl">Video</a>]
-
-<div style="float:left; text-align:left"> Learning in progress</div> <div style="float:right; text-align:right"><i>2024.6 - present</i></div>
- <br />
-<ul>
-<li>
- <p> Designed and fine-tuned the reward function for humanoid locomotion. Then implemented proximal policy optimization algorithm (PPO) to train the humanoid locomotion from curriculum.
- </p>
-</li>
-<li>
-<p> Sim-to-Sim transfer the learned policy into different photo-realistic environments of Nvidia Isaac Sim. Demonstrate robust locomotion ability of the RL policy for Unitree H1.</p>
-</li>
-</ul>
-<center>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/h1-hosp.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
-    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/h1-office.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：1个图 -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="../files/fly_forest.gif" alt="Multicopter in Forest" style="width: 100%; height: auto; object-fit: contain;">
   </div>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/h1-out.gif" alt="GIF 1" width="960" height="200" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
-    <div class="gif" style="width: 40%; height: auto; padding: 5px;">
-      <img src="../files/h1-stair.gif" alt="GIF 2" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+  <!-- 右侧：标题、链接、单位、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Low-cost and efficient location, mapping, planning and control for multicopter in embedded system</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>]</p>
+    <p>Application Innovate Laboratory, Huawei; FastLab, Zhejiang University | <i>2023.2 - 2024.3</i></p>
+    <p>• Enhanced VINS-Fusion with learning-based features and QR optimization for better accuracy/robustness on low-performance chips.<br>
+    • Implemented fast OGM updating (incremental inflation) and robot-centric ESDF for efficient MPCC-based collision-aware control.</p>
   </div>
-  </center>
+</div>
 
-**Risk-aware contingency motion planning under uncertainties for Automated Valet Parking(AVP)** 
-
-<div style="float:left; text-align:left"> DJI Automotive</div> <div style="float:right; text-align:right"><i>2024.4 - present</i></div>
- <br />
-<ul>
-<li>
- <p> Realized global topological path searching towards the point of interest(POI). Identified semantic elements on the route (ramp, corner, etc.) and implemented global speed scheduling based on the user preferences and kinematic constraints. 
- </p>
-</li>
-<li>
-<p> Planned the lateral path for ego to bypass different agents (static obstalces, upcoming cars, etc.). Generate multiple safe corridors based on vonorio and get the reference polyline. Then we construct second-order continuous SplineGrid from bypass boundary to iteratively optimize a smooth path. </p>
-</li>
-<li>
-<p> Modelled the scenario risk considering the uncertainties from perception, prediction and game. Then use iLQR to optimize an interactive longitudinal speed in S-T state space.</p>
-</li>
-<li>
-<p> Studied the contingency speed planning under multimodality of prediction. Use tree branch based iLQR to optimize the coupled trajectories in different scenarios. </p>
-</li>
-</ul>
-
-
-**Low-cost and efficient location, mapping, planning and control for multicopter in embedded system** 
-[<a href="https://yuqiang-yang.github.io/talks#planning">Video1</a>, <a href="https://yuqiang-yang.github.io/talks#hover">Video2</a>, <a href="https://yuqiang-yang.github.io/talks#rcesdf">Video3</a>]
-
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei; FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2024.3</i></div>
-<p> <br />
-Advisor: Dr. Chen Chen; Dr. <a href="https://scholar.google.com.hk/citations?user=yO5K6xwAAAAJ&hl=th">Zehui Meng</a>; Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a> </p>
-<ul>
-<li>
- <p> Improved <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Vins-Fusion</a> by replacing front-end feature extraction with a <b>learning-based feature </b> and enhancing back-end optimization with a QR-based dimensionality reduction algorithm. Boosted the accuracy and robustness greatly in low-performance chip.</p>
-</li>
-<!-- <a href="https://github.com/facebookresearch/silk">Silk</a> 
-, boosting the computation efficiency though an <b>nerual processing unit (NPU)</b>.-->
-<li>
-  <p> Implemented a low-cost efficient occupancy grid map (OGM) updating algorithm based on <b>incremental inflation</b> and <b>spatial-temporal sliding windows</b>, which enables a extremely fast occupancy information update in large environments.</p>
-</li>
-
-<li>
-  <p> Utilized the <b>robot-centric ESDF</b>, whose values are only lazily evaluated in the local frame for extraordinarily small calculations, to formulate the collision cost in the back-end optimization of model predicted contour control (MPCC).</p>
-</li>
-
-</ul>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/fly_forest.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：1个图 -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="../files/se3.jpg" alt="SE3 Narrow Gap Crossing" style="width: 100%; height: auto; object-fit: contain;">
   </div>
-
-**SE3 planning and control for multicopter to cross narrow gap** 
-[<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]
-
-<div style="float:left; text-align:left"> FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.10 - 2023.12</i></div>
-<p> <br />
-Advisor:  Prof. <a href="https://scholar.google.com.hk/citations?user=4RObDv0AAAAJ&hl=zh-CN">Fei Gao</a></p>
-<ul>
-<li>
- <p> Constructed the <b>safe flight corridor</b> (SFC) including a series of mutually-consecutive convex polytopes to represent the free space of the quadrotor.
- </p>
-</li>
-<li>
-<p> Utilized <a href="https://github.com/ZJU-FAST-Lab/GCOPTER">MINCO</a> to parameterize the trajectory in <b>spatial-temporal space</b> and jointly optimize a crossing-gap trajectory for better smoothness, using L-BFGS algorithm.</p>
-</li>
-<li>
-  <p> Identified the quadrotor dynamics parameter for a accurate <b>thrust mapping</b> w.r.t the battery voltage and control duty cycle. Then finely tuned the controller to track the large-attitude trajectory to cross the narrow gap.</p>
-</li>
-
-</ul>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/se3.jpg" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+  <!-- 右侧：标题、链接、单位、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">SE3 planning and control for multicopter to cross narrow gap</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/talks#se3">Video</a>]</p>
+    <p>FastLab, Zhejiang University | <i>2023.10 - 2023.12</i></p>
+    <p>• Built safe flight corridors (SFC) and used MINCO for spatial-temporal trajectory optimization via L-BFGS.<br>
+    • Achieved accurate narrow gap crossing by calibrating thrust mapping and tuning controllers for large-attitude tracking.</p>
   </div>
+</div>
 
-**Pedestrian following and collision avoidance with spatial-temporal optimization for differential car** [<a href="https://yuqiang-yang.github.io/teaching#follow">Video</a>]
-
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei. FastLab, Zhejiang University</div> <div style="float:right; text-align:right"><i>2023.2 - 2023.11</i></div>
-<p> <br />
-Advisor: Dr. Chen Chen. Dr. Zehui Meng. Prof. Fei Gao</p>
-<ul>
-<li>
-  <p> Proposed a multi-level hybrid A* algorithm to find kinodynamic trajectory to the future position (predicted by EKF) in a certain horizon,jointly considering the <b>object occlusion, uncertainty and collision</b> simultaneously.</p>
-</li>
-<li>
-  <p> Filtered the object pointcloud of OUSTER lidar based on the bounding box generated from the visual perception and registered the remaining pointcloud of <b>Fast-Lio2</b> as obstacles.</p>
-</li>
-<li>
-  <p> Optimized the trajectory parameterized by MINCO  <b>spatially and temporally</b> using L-BFGS. Then implemented a low-level MPC controller to accurately track the trajectories under kinematics constraints and communication delay.</p>
-</li>
-</ul>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/follow.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：1个图 -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="../files/follow.gif" alt="Pedestrian Following Demo" style="width: 100%; height: auto; object-fit: contain;">
   </div>
-
-**Self-balanced racing car with wireless charging capability** [<a href="https://yuqiang-yang.github.io/teaching#balance">Video</a>]
-<div style="float:left; text-align:left">School of Automation Science and Engineering, SCUT</div> <div style="float:right; text-align:right"><i>2020.01 - 2020.08</i></div>
-<p> <br />
-Advisor: Dr. An Chen</p>
-<ul>
-<li>
-  <p>Designed and implemented the adaptive wireless-charging algorithm (PD) to quickly charge (≈30W) the super-capacitors mounted on the car. </p>
-</li>
-<li>
-  <p> Tuned a cascade position, velocity, attitude and angular controller for a two-wheeled car to race on the track and pass various elements (including circle, slope, crossroads, etc) correctly and steadily.</p>
-</li>
-<li>
-  <p> Finished the race with the fifth national place in 23.8s and won the first prize.</p>
-</li>
-</ul>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/racing.png" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+  <!-- 右侧：标题、链接、单位、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Pedestrian following and collision avoidance with spatial-temporal optimization for differential car</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/teaching#follow">Video</a>]</p>
+    <p>Application Innovate Laboratory, Huawei; FastLab, Zhejiang University | <i>2023.2 - 2023.11</i></p>
+    <p>• Developed multi-level hybrid A* for EKF-predicted pedestrian following, plus MINCO optimization for smooth trajectories.<br>
+    • Ensured collision avoidance via lidar filtering and MPC control, handling kinematic constraints and communication delay.</p>
   </div>
+</div>
 
-**Wholebody pick-and-place for mobile manipulator** [<a href="https://yuqiang-yang.github.io/talks#pick_and_place">Video</a>]
-<div style="float:left; text-align:left">Application Innovate Laboratory, Huawei</div> <div style="float:right; text-align:right"><i>2022.10 - 2022.11</i></div>
-<p> <br />
-Advisor: Dr. Chen Chen</p>
-<ul>
-<li>
-  <p>Trained <a href="https://github.com/dougsm/ggcnn">GGCNN</a>  for the 6-D perception of the objects, whose inputs are camera pointcloud and outputs are the grasp quality, width and orientation.</p>
-</li>
-<li>
-  <p> Utilized OSQP to solved the dynamic-weighted QP problem, which jointly considers the manipulability, energy, manipulator orientation and path tracking to achieve coordinated picking-and-placing in wholebody manner.</p>
-</li>
-</ul>
-  <div class="gif-container" style="display: flex;justify-content: center; align-items: center; flex-wrap: wrap;">
-    <div class="long-gif" style="width: 80%; height: auto; padding: 5px;">
-      <img src="../files/pick_place.gif" alt="Long GIF" style="width: 100%; height: 100%; object-fit: contain;">
-    </div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：1个图 -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="../files/racing.png" alt="Self-balanced Racing Car" style="width: 100%; height: auto; object-fit: contain;">
   </div>
+  <!-- 右侧：标题、链接、单位、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Self-balanced racing car with wireless charging capability</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/teaching#balance">Video</a>]</p>
+    <p>School of Automation Science and Engineering, SCUT | <i>2020.01 - 2020.08</i></p>
+    <p>• Designed adaptive PD wireless charging (≈30W) for super-capacitors and tuned cascade controllers for stable track navigation.<br>
+    • Won 5th national place with a 23.8s race time, successfully passing circles, slopes, and crossroads.</p>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+  <!-- 左侧：1个图 -->
+  <div style="flex: 1; min-width: 300px;">
+    <img src="../files/pick_place.gif" alt="Wholebody Pick-and-Place" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：标题、链接、单位、年份、英文总结 -->
+  <div style="flex: 1; min-width: 300px;">
+    <h3 style="margin-top: 0;">Wholebody pick-and-place for mobile manipulator</h3>
+    <p>[<a href="https://yuqiang-yang.github.io/talks#pick_and_place">Video</a>]</p>
+    <p>Application Innovate Laboratory, Huawei | <i>2022.10 - 2022.11</i></p>
+    <p>• Trained GGCNN for 6-D object perception and used OSQP to solve dynamic-weighted QP for whole-body coordination.<br>
+    • Enabled smooth pick-and-place by balancing manipulability, energy, and trajectory tracking performance.</p>
+  </div>
+</div>
 
 ## Honor & Awards
 
