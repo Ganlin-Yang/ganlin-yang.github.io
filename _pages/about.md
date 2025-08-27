@@ -51,6 +51,36 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 
 
 ## Research Experiences
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/streamvln.gif" alt="streamvln" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">StreamVLN: Streaming Vision-and-Language Navigation via SlowFast Context Modeling</h3>
+    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">[<a href="https://streamvln.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2507.05240">Paper</a>]&nbsp;[<a href="https://github.com/OpenRobotLab/StreamVLN">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1914387005099451505">Zhihu</a>]</p>
+    <p>We propose StreamVLN, a streaming VLN framework that employs a hybrid slow-fast context modeling strategy to support multi-modal reasoning over interleaved vision, language and action inputs. StreamVLN can understand complex human instructions and finish VLN task in various indoor/outdoor scenarios. 
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/navdp.gif" alt="navdp" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance</h3>
+    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">[<a href="https://wzcai99.github.io/navigation-diffusion-policy.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2505.08712">Paper</a>]&nbsp;[<a href="https://github.com/wzcai99/NavDP">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1914387005099451505">Zhihu</a>]</p>
+    <p>We propose NavDP, an end-to-end framework trained solely in simulation that combines diffusion-based trajectory generation and a critic function for trajectory selection (conditioned on local observation tokens from a shared policy transformer); it can zero-shot transfer to different robot embodiments in diverse real-world environments.
+ </p>
+  </div>
+</div>
+
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%;">
   <!-- 左侧：30%宽度（固定比例，不折行），2个小图在上、1个长图在下 -->
   <div style="width: 30%; min-width: 250px;">
@@ -65,7 +95,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
   <!-- 右侧：70%宽度（固定比例，不折行），标题+缩小字号的辅助信息+润色后的总结 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">RAMPAGE: Towards Whole-body, Real-Time and Agile Motion Planning in Dynamic Cluttered Environments for Mobile Manipulators</h3>
-    <p style="margin: 8px 0;">[<a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>, <a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a>]</p>
+    <p style="margin: 8px 0;">[<a href="https://yuqiang-yang.github.io/publications#rampage">Video</a>] [<a href="https://github.com/yuqiang-yang/TIE-Supplementary-video">PDF</a>]</p>
     <p style="margin: 8px 0;">2024 IEEE Transaction on Industrial Electronics</p>
     <p style="margin: 8px 0;">We proposed a hierarchical topology-guided search and AL-DDP-based optimization to solve whole-body kinodynamic planning in dynamic environments, and achieved real-time planning (≈30ms) and ≈80% success rate with accurate collision detection via ESDF map and sphere decomposition.</p>
   </div>
@@ -79,7 +109,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
   <!-- 右侧：70%宽度（固定比例，不折行），标题+缩小字号的辅助信息+润色后的总结 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">Learn to Coordinate: a Whole-Body Learning from Demonstration Framework for Differential Drive Mobile Manipulators</h3>
-    <p style="margin: 8px 0;">[<a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>, <a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a>]</p>
+    <p style="margin: 8px 0;">[<a href="https://yuqiang-yang.github.io/publications#open_door">Video1</a>, <a href="https://yuqiang-yang.github.io/publications#learning">Video2</a>] [<a href="https://ieeexplore.ieee.org/abstract/document/10394442">PDF</a>]</p>
     <p style="margin: 8px 0;">2023 IEEE Conference on Systems, Man, and Cybernetics</p>
     <p style="margin: 8px 0;">We developed a Gaussian Process-based learning framework with WLN inverse kinematics for few-shot whole-body skill learning, which enabled coordinated door opening with disturbance rejection and simplified human guidance via admittance control.</p>
   </div>
@@ -107,9 +137,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），占位图 -->
   <div style="width: 30%; min-width: 250px;">
-    <div style="width: 100%; height: 280px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #666; font-size: 14px;">
-      AVP Motion Planning Visualization (Image Placeholder)
-    </div>
+      <img src="../files/AVP.gif" alt="Multicopter in Forest" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+缩小字号的辅助信息+润色后的总结 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
@@ -136,7 +164,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），1个图 -->
   <div style="width: 30%; min-width: 250px;">
-    <img src="../files/se3.jpg" alt="SE3 Narrow Gap Crossing" style="width: 100%; height: auto; object-fit: contain;">
+    <img src="../files/se3.GIF" alt="SE3 Narrow Gap Crossing" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+缩小字号的辅助信息+润色后的总结 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
@@ -193,6 +221,8 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 ## Honor & Awards
 
 <ul>
+<li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2024-10</i></div></li>
+
 <li> <div style="float:left; text-align:left">National Scholarship</div> <div style="float:right; text-align:right"><i>2021-10</i></div></li>
 
 <li> <div style="float:left; text-align:left"> Scholarship of <a href="https://www.gac.com.cn/cn/" title="GuangQi">Guangzhou Automobile Group Co., Ltd</a></div> <div style="float:right; text-align:right"><i>2020-10</i></div></li>
@@ -205,12 +235,23 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 ## Internship
 
 <div style="float:left; text-align:left; line-height: 1.8">
+<i><b> DJI Automotive</b></i>
+<br>Intern, PnC
+<br>Decision and motion planning for autonomous vehicles
+<br>Supervisor: Dr. Yifan Tang, Dr. Zhepei Wang
+</div>
+ <div style="float:right; text-align:right"><i>Apr. 2024 - Nov. 2024</i></div> <br/>
+<br/>
+<br/>
+<br/>
+
+<div style="float:left; text-align:left; line-height: 1.8">
 <i><b> Huawei Technologies Co.Ltd</b></i>
 <br>Intern, Application Innovation Laboratorys
 <br>Planning and Control for various robots
 <br>Supervisor: Dr. Chen Chen, Dr. Zehui Meng
 </div>
- <div style="float:right; text-align:right"><i>June. 2022 - now</i></div> <br/>
+ <div style="float:right; text-align:right"><i>June. 2022 - Apr. 2024</i></div> <br/>
 <br/>
 <br/>
 <br/>
@@ -235,5 +276,8 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 **Robotics:**
 <p>Wholebody control, Peception and mapping, Convex Optimization, Admittance/Impedance Control, Gravity Compensation, teleoperation</p>
 
+**Embodied AI:**
+<p>Data preparation, Model training and evaluation, Sim2Real Transfer</p>
+
 **Hardware Experience:**
-<p>Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
+<p>Unitree G1, Unitree Go2, Turtlebot4, Galaxea R1, Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
