@@ -164,7 +164,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），1个图 -->
   <div style="width: 30%; min-width: 250px;">
-    <img src="../files/se3.GIF" alt="SE3 Narrow Gap Crossing" style="width: 100%; height: auto; object-fit: contain;">
+    <img src="../files/se3.gif" alt="SE3 Narrow Gap Crossing" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <!-- 右侧：70%宽度（固定比例，不折行），标题+缩小字号的辅助信息+润色后的总结 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
