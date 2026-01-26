@@ -51,6 +51,55 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 
 
 ## Research Experiences
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/dualvln.jpg" alt="dualvln" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">Ground Slow, Move Fast: A Dual-System Foundation Model for Generalizable Vision-Language Navigation
+</h3>
+    <p style="margin: 8px 0;">2026 ICLR</p>
+    <p style="margin: 8px 0;">[<a href="https://dualvln.github.io">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2512.08186">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternNav">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1983313347735754252">Zhihu</a>]</p>
+    <p>We propose DualVLN, a dual-system foundation model for Vision-Language Navigation, which includes: (i) System 2: a large foundation VLM, performs slow but robust reasoning and produces explicit pixel goals. (ii) System 1: a lightweight diffusion policy, generates smooth and safe trajectories in real time.
+
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/logoplanner.gif" alt="internvla" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry
+</h3>
+    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">[<a href="https://steinate.github.io/logoplanner.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2512.19629/">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/NavDP/tree/master/baselines/logoplanner">Code</a>]&nbsp;[<a href="https://www.xiaohongshu.com/explore/694a6a98000000001e001de5?secondshare=weixin&share_from_user_hidden=true&appuid=&apptime=1766490583&share_id=79b6fd07709a4a9bac49efa1b71e622b&xsec_source=h5_share&xsec_token=CBC8ercf50EWYtlPvqEuNgMb3VOGluK-uIjnadx7oMfP0=&wechatWid=b5c0472497dc4df32c2c6f3c1f9047a3&wechatOrigin=menu">RedNote</a>]</p>
+    <p>We introduce LoGoPlanner, a localization-grounded, end-to-end navigation framework: (i) finetuning a long-horizon visual-geometry backbone to ground predictions with absolute metric scale, thereby providing implicit state estimation for accurate localization; (ii) reconstructing surrounding scene geometry from historical observations to supply dense, fine-grained environmental awareness for reliable obstacle avoidance; and (iii) conditioning the policy on implicit geometry bootstrapped by the aforementioned auxiliary tasks, thereby reducing error propagation.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/internvlan1.gif" alt="internvla" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">InternVLA-N1: An Open Dual-System Vision-Language Navigation Foundation Model with Learned Latent Plans</h3>
+    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/internvla-n1.github.io/">Project Page</a>]&nbsp;[<a href="https://internrobotics.github.io/internvla-n1.github.io/static/pdfs/InternVLA_N1.pdf">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternNav">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1951006103295988182">Zhihu</a>]</p>
+    <p>We introduce InternVLA-N1 the first open dual-system vision-language navigation foundation model. Unlike previous navigation foundation models that can only take short-term actions from a limited discrete space, InternVLA-N1 decouples the task as pixel-goal planning with System 2 and agile execution with System 1.
+</p>
+  </div>
+</div>
+
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
   <div style="width: 30%; min-width: 250px;">
