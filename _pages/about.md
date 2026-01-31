@@ -78,7 +78,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry
 </h3>
-    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">2026 ICRA</p>
     <p style="margin: 8px 0;">[<a href="https://steinate.github.io/logoplanner.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2512.19629/">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/NavDP/tree/master/baselines/logoplanner">Code</a>]&nbsp;[<a href="https://www.xiaohongshu.com/explore/694a6a98000000001e001de5?secondshare=weixin&share_from_user_hidden=true&appuid=&apptime=1766490583&share_id=79b6fd07709a4a9bac49efa1b71e622b&xsec_source=h5_share&xsec_token=CBC8ercf50EWYtlPvqEuNgMb3VOGluK-uIjnadx7oMfP0=&wechatWid=b5c0472497dc4df32c2c6f3c1f9047a3&wechatOrigin=menu">RedNote</a>]</p>
     <p>We introduce LoGoPlanner, a localization-grounded, end-to-end navigation framework: (i) finetuning a long-horizon visual-geometry backbone to ground predictions with absolute metric scale, thereby providing implicit state estimation for accurate localization; (ii) reconstructing surrounding scene geometry from historical observations to supply dense, fine-grained environmental awareness for reliable obstacle avoidance; and (iii) conditioning the policy on implicit geometry bootstrapped by the aforementioned auxiliary tasks, thereby reducing error propagation.
 </p>
@@ -93,7 +93,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">InternVLA-N1: An Open Dual-System Vision-Language Navigation Foundation Model with Learned Latent Plans</h3>
-    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">2025 Technical report</p>
     <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/internvla-n1.github.io/">Project Page</a>]&nbsp;[<a href="https://internrobotics.github.io/internvla-n1.github.io/static/pdfs/InternVLA_N1.pdf">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternNav">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1951006103295988182">Zhihu</a>]</p>
     <p>We introduce InternVLA-N1 the first open dual-system vision-language navigation foundation model. Unlike previous navigation foundation models that can only take short-term actions from a limited discrete space, InternVLA-N1 decouples the task as pixel-goal planning with System 2 and agile execution with System 1.
 </p>
@@ -108,7 +108,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">StreamVLN: Streaming Vision-and-Language Navigation via SlowFast Context Modeling</h3>
-    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">2026 ICRA</p>
     <p style="margin: 8px 0;">[<a href="https://streamvln.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2507.05240">Paper</a>]&nbsp;[<a href="https://github.com/OpenRobotLab/StreamVLN">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1914387005099451505">Zhihu</a>]</p>
     <p>We propose StreamVLN, a streaming VLN framework that employs a hybrid slow-fast context modeling strategy to support multi-modal reasoning over interleaved vision, language and action inputs. StreamVLN can understand complex human instructions and finish VLN task in various indoor/outdoor scenarios. 
 </p>
@@ -123,7 +123,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
   <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
   <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
     <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">NavDP: Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance</h3>
-    <p style="margin: 8px 0;">2025 ArXiv preprint</p>
+    <p style="margin: 8px 0;">2026 ICRA</p>
     <p style="margin: 8px 0;">[<a href="https://wzcai99.github.io/navigation-diffusion-policy.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2505.08712">Paper</a>]&nbsp;[<a href="https://github.com/wzcai99/NavDP">Code</a>]&nbsp;[<a href="https://zhuanlan.zhihu.com/p/1914387005099451505">Zhihu</a>]</p>
     <p>We propose NavDP, an end-to-end framework trained solely in simulation that combines diffusion-based trajectory generation and a critic function for trajectory selection (conditioned on local observation tokens from a shared policy transformer); it can zero-shot transfer to different robot embodiments in diverse real-world environments.
  </p>
