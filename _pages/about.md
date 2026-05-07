@@ -9,11 +9,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Yuqiang Yang, a Research&Development Engineer at [Embodied AI Center](https://internrobotics.shlab.org.cn/), [Shanghai AI Laboratory](https://www.shlab.org.cn/). Working with [Dr. Tai Wang](https://tai-wang.github.io/) and [Dr. Jiangmiao Pang](https://oceanpang.github.io/), my research interests are to combine LLM with robotic model-based optimization to enable various robots, such as **mobile manipulator, autonomous car, humanoid and multicopter**, to perform tasks autonomously and efficiently in unstructured environment. 
+I am Yuqiang Yang, a Research and Development Engineer at the [Embodied AI Center](https://internrobotics.shlab.org.cn/), [Shanghai AI Laboratory](https://www.shlab.org.cn/), working with [Dr. Tai Wang](https://tai-wang.github.io/) and [Dr. Jiangmiao Pang](https://oceanpang.github.io/). I have **full-stack experience** in robotic foundation models, covering data processing, training infrastructure, high-speed model inference, and simulation/real-world evaluation. My current research interest is to build **robust and generalizable robotic systems** through systematic system design and holistic optimization, enabling embodied AGI to better serve real-world human needs.
 
-Specifically, we study post-training the **VLM-based System2** model and **diffusion-based obstacle avoidance System1** model to enable different embodiments (Unitree G1, Go2, Turtlebot, Galaxea, etc) to finish VLN tasks efficently and smoothly. Besides, we have explored and realized the possibility of allowing the mobile manipulators to efficiently pick and place in a **wholebody** manner while avoidance collision smoothly **in cluttered dynamic environment** full of chairs, tables and shelves. I have full-stack technical expertise across core domains including high-quality data generation, efficient model evaluation, sim2real transfer, robust robotics localization, high-dimensional motion planning and high-precision optimal control. 
+My research experience spans three closely connected areas: **robot manipulation**, **navigation**, and **mobile manipulation**. In robot manipulation, I work on pre-training and adapting robotic foundation models with heterogeneous robot and multimodal data (e.g. COCO series, LLaVA series) and large-scale robot datasets (e.g. OXE, AgiBot World), and evaluate them on mainstream simulation benchmark (e.g Robtwin, Simpler, Calvin) and real-world environment. In navigation, I explore **dual-system navigation frameworks**, where a VLM-based **System-2** model performs high-level reasoning and decision-making, while a diffusion-based **System-1** model enables smooth and efficient obstacle avoidance across different embodiments, such as **Unitree G1, Go2, TurtleBot, and Galaxea**. In mobile manipulation, I investigate **whole-body planning and control** for mobile manipulators, enabling efficient pick-and-place tasks while avoiding collisions in cluttered and dynamic environments with chairs, tables, and shelves.
 
-Our team is dedecated to building Embodied AGI systems and empowering academia and industry through open-source initiatives. We have contributed many works on [github](https://github.com/InternRobotics). If you are interested to join us, feel free to contact us.
+Our team is dedicated to building **Embodied AGI systems** and empowering both academia and industry through open-source initiatives. We have contributed many research projects and codebases on [GitHub](https://github.com/InternRobotics). If you are interested in joining us or collaborating with us, feel free to contact us.
 ## Education and Training
 
 
@@ -23,7 +23,7 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 <br>Supervisor: Prof. <a href="https://scholar.google.com/citations?user=e8io0fYAAAAJ&hl=zh-CN&oi=ao">Chenguang Yang</a>
 <br> GPA: 3.82/4.0 (ranked first)
 </div>
-<div style="float:right; text-align:right"><i>Sep. 2022 - Present</i></div><br/>
+<div style="float:right; text-align:right"><i>Sep. 2022 - Jun. 2025</i></div><br/>
 <br/> <br/>
 <br/>
 
@@ -51,6 +51,51 @@ Our team is dedecated to building Embodied AGI systems and empowering academia a
 
 
 ## Research Experiences
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/internvla-a1-method.png" alt="internvla-a1" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">InternVLA-A1: Unifying Understanding, Generation and Action for Robotic Manipulation</h3>
+    <p style="margin: 8px 0;">2026 Technical report</p>
+    <p style="margin: 8px 0;">[<a href="https://internrobotics.github.io/internvla-a1.github.io/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2601.02456">Paper</a>]&nbsp;[<a href="https://github.com/InternRobotics/InternVLA-A1">Code</a>]&nbsp;[<a href="https://huggingface.co/datasets/InternRobotics/InternData-A1">Data</a>]&nbsp;[<a href="https://huggingface.co/InternRobotics/InternVLA-A1-3B">Model</a>]</p>
+    <p>We present InternVLA-A1, a unified VLA model that coordinates scene understanding, visual foresight generation, and action execution with a Mixture-of-Transformers architecture. Trained on heterogeneous robot, simulation, and human-video data, InternVLA-A1 brings world-model-style dynamics prediction into robotic manipulation and shows strong performance on both static and highly dynamic tasks.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/latentpilot-demo.gif" alt="latentpilot" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">LatentPilot: Scene-Aware Vision-and-Language Navigation by Dreaming Ahead with Latent Visual Reasoning</h3>
+    <p style="margin: 8px 0;">2026 arXiv</p>
+    <p style="margin: 8px 0;">[<a href="https://abdd.top/latentpilot/">Project Page</a>]&nbsp;[<a href="https://arxiv.org/abs/2603.29165">Paper</a>]&nbsp;[<a href="https://github.com/oceanhao/latentpilot">Code</a>]</p>
+    <p>We propose LatentPilot, a future-aware VLN paradigm that learns action-conditioned visual dynamics from future observations during training while requiring only current observations at inference. Its recurrent latent visual tokens allow the agent to dream ahead, reason over likely scene changes, and improve navigation decisions in simulation and real-world tests.
+</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
+  <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
+  <div style="width: 30%; min-width: 250px;">
+    <img src="../files/ovexp-framework.png" alt="ovexp" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <!-- 右侧：70%宽度（固定比例，不折行），标题+链接+备注 -->
+  <div style="width: 70%; min-width: 400px; font-size: 14px; line-height: 1.4;">
+    <h3 style="margin-top: 0; font-size: 18px; line-height: 1.5;">OVExp: Open Vocabulary Exploration for Object-Oriented Navigation</h3>
+    <p style="margin: 8px 0;">2026 ICRA</p>
+    <p style="margin: 8px 0;">[<a href="https://arxiv.org/abs/2407.09016">Paper</a>]&nbsp;[<a href="https://arxiv.org/html/2407.09016">HTML</a>]</p>
+    <p>We introduce OVExp, a learning-based framework for open-vocabulary object-oriented exploration. OVExp builds VLM-aware top-down scene representations, aligns text or image goals in the same feature space, and predicts goal-conditioned target locations with a lightweight decoder, enabling efficient generalization to unseen objects, image goals, and novel scenes.
+</p>
+  </div>
+</div>
 
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 30px;">
   <!-- 左侧：30%宽度（固定比例，不折行），论文图片 -->
