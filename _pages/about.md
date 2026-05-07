@@ -365,13 +365,16 @@ Our team is dedicated to building **Embodied AGI systems** and empowering both a
 ## Skills
 
 **Programming:**
-<p>Python, MATLAB, C/C++, PyTorch, Pybullet, Airsim, Embedded System</p>  
+<p>Python, MATLAB, C/C++, PyTorch, Pybullet, Airsim, Embedded System, Distributed Training, High-speed Model Inference</p>
 
 **Robotics:**
-<p>Wholebody control, Peception and mapping, Convex Optimization, Admittance/Impedance Control, Gravity Compensation, teleoperation</p>
+<p>Wholebody Control, Perception and Mapping, Motion Planning, Convex Optimization, Trajectory Optimization, Admittance/Impedance Control, Gravity Compensation, Teleoperation</p>
 
 **Embodied AI:**
-<p>Data preparation, Model training and evaluation, Sim2Real Transfer</p>
+<p>Data Preparation, Model Training and Evaluation, Sim2Real Transfer, Embodied Foundation Models, Vision-Language-Action Models, Multimodal Data Processing, Robot Benchmarking and Deployment</p>
 
-**Hardware Experience:**
-<p>Unitree G1, Unitree Go2, Turtlebot4, Galaxea R1, Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
+**System Integration:**
+<p>Robot System Design, Training Infrastructure, Simulation Evaluation, Real-world Evaluation, Model Deployment, Cross-embodiment Generalization</p>
+
+**Robot Hardware Platforms:**
+<p>Unitree G1, Unitree Go2, Turtlebot4, Galaxea R1, Ark X5, Lift, AgileX, RealMan, AgiBot G2, Multicopter, <a href="https://en.directdrive.com/">Diablo</a>, Franka, UR, Mobile Manipulator, Robotiq 2F85, Vicon, Touch X, ATI sensors, STM32</p>
