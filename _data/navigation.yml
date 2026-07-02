@@ -1,26 +1,12 @@
-# main links links
+# main links
 main:
-  - title: "Mobile Manipulator"
-    url: /publications/
-
-  # - title: "Quadrotor"
-  #   url: /quadrotor/
-  # - title: "Car"
-  #   url: /car/
-  - title: "Quadrotor"
-    url: /talks/    
-
-  - title: "Car"
-    url: /teaching/    
-    
-  # - title: "Humanoid"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  - title: "Humanoid"
-    url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "About"
+    url: /#about
+  - title: "Education"
+    url: /#education
+  - title: "Internship"
+    url: /#internship
+  - title: "Research Experiences"
+    url: /#research-experiences
+  - title: "Skills"
+    url: /#skills

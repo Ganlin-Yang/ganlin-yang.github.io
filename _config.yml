@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuqiang Yang(杨宇强)"
+title                    : "Ganlin Yang(杨甘霖)"
 title_separator          : "-"
-name                     : &name "Yuqiang Yang(杨宇强)"
-description              : &description "Research&Development Engineer at Shanghai AI Lab"
-url                      : https://yuqiang-yang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ganlin Yang(杨甘霖)"
+description              : &description "Research Intern & Joint PhD Student at Shanghai AI Lab and USTC"
+url                      : https://ganlin-yang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yuqiang-yang.github.io"
+repository               : "Ganlin-Yang/ganlin-yang.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 30
@@ -80,29 +80,28 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuqiang Yang(杨宇强)"
-  avatar           : "../files/photo-2026-06.jpg"
-  bio              : "Research&Development Engineer at Shanghai AI Lab"
+  name             : "Ganlin Yang(杨甘霖)"
+  avatar           : "/files/photos.jpg"
+  bio              : "Research Intern & Joint PhD Student at Shanghai AI Lab and USTC"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=6bw40_kAAAAJ&hl=zh-CN&authuser=1"
-  email            : "auyuqiangyang@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=321C4TQAAAAJ&hl=zh-CN&oi=ao"
+  email            : "ygl666@mail.ustc.edu.cn"
   researchgate     : 
-  uri              : "https://www.zhihu.com/people/ben-san-qing-nian-45"
+  linkedin         : "ganlin-yang-76888123b"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yuqiang-yang"
+  github           : "ganlin-yang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
   orcid            : 
   pinterest        :
   soundcloud       :

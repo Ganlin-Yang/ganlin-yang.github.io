@@ -1,2 +1,6 @@
 _site/
 
+# Local Ruby/Bundler artifacts
+.bundle/
+vendor/
+
