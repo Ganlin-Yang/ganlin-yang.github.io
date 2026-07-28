@@ -157,6 +157,18 @@ Before these directions, I also worked on 3D reconstruction and neural rendering
   </div>
 </div>
 
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px; margin-bottom: 24px;">
+  <div style="width: 28%; min-width: 220px;">
+    <img src="../files/ganlin/cortex.png" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
+    <h3 style="margin-top: 0; font-size: 18px;">Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation</h3>
+    <p style="margin: 6px 0;"><i>Technical Report</i> | [<a href="https://arxiv.org/pdf/2607.05377">Paper</a>] [<a href="https://github.com/InternRobotics/Cortex">GitHub</a>] [<a href="https://steinate.github.io/cortex.github.io/">Project Page</a>]</p>
+    <p style="margin: 6px 0;">Jiaqi Peng*, Xiqian Yu*, Delin Feng*, ..., <strong>Ganlin Yang</strong>, ..., Jiangmiao Pang, Yuan Shen, Tai Wang.</p>
+    <p style="margin: 6px 0;">Summary: Cortex is a bidirectionally aligned embodied agent framework with a customized planning interface that conveys executable and tractable subtask plans from high-level VLM to low-level VLA.</p>
+  </div>
+</div>
+
 
 ### Multimodal Understanding and Generation
 
