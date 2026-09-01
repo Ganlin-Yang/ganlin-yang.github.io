@@ -123,6 +123,18 @@ Before these directions, I also worked on 3D reconstruction and neural rendering
 
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px;">
   <div style="width: 28%; min-width: 220px;">
+    <img src="../files/ganlin/vebrain1.5.png" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
+    <h3 style="margin-top: 0; font-size: 18px;">Visual Embodied Brain-1.5: Enhanced Perception, Spatial Reasoning and Robot Control in Spaces</h3>
+    <p style="margin: 6px 0;"><i>IEEE TPAMI 2026</i> | [<a href="https://ieeexplore.ieee.org/abstract/document/11668701">Paper</a>]</p>
+    <p style="margin: 6px 0;"><strong>Ganlin Yang</strong>, Gen Luo, Ziyang Gong, Guanzhou Chen, ..., Yu Qiao, Wenhai Wang, Xizhou Zhu, Jifeng Dai</p>
+    <p style="margin: 6px 0;">Summary: VeBrain-1.5 extends the unified perception–reasoning–control framework with a shared MLLM decision interface, VeBrain-1M data, and offline RL with verifiable rewards, improving success on both legged robots and robotic arms.</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px;">
+  <div style="width: 28%; min-width: 220px;">
     <img src="../files/ganlin/vebrain.png" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
   </div>
   <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
