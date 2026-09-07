@@ -133,6 +133,18 @@ Before these directions, I also worked on 3D reconstruction and neural rendering
   </div>
 </div>
 
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px; margin-bottom: 24px;">
+  <div style="width: 28%; min-width: 220px;">
+    <img src="../files/ganlin/eventvla.jpg" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
+    <h3 style="margin-top: 0; font-size: 18px;">EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies</h3>
+    <p style="margin: 6px 0;"><i>CoRL 2026</i> | [<a href="https://arxiv.org/abs/2606.20092">Paper</a>] [<a href="https://github.com/InternRobotics/EventVLA">GitHub</a>] [<a href="https://ganlin-yang.github.io/EventVLA.github.io/">Project Page</a>]</p>
+    <p style="margin: 6px 0;"><strong>Ganlin Yang*</strong>, Zhangzheng Tu*, Yuqiang Yang*, Sitong Mao, Junyi Dong, Tianxing Chen, Jiaqi Peng, Jing Xiong, Jiafei Cao, Jifeng Dai, Wengang Zhou, Yao Mu, Tai Wang.</p>
+    <p style="margin: 6px 0;">Summary: EventVLA introduces event-driven memory updates to preserve key visual evidence during long-horizon interaction, improving temporal consistency and policy robustness.</p>
+  </div>
+</div>
+
 <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px;">
   <div style="width: 28%; min-width: 220px;">
     <img src="../files/ganlin/vebrain.png" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
@@ -154,18 +166,6 @@ Before these directions, I also worked on 3D reconstruction and neural rendering
     <p style="margin: 6px 0;"><i>Technical Report</i> | [<a href="https://arxiv.org/abs/2603.03198">Paper</a>] [<a href="https://github.com/ACE-Brain-Team/ACE-Brain">GitHub</a>] [<a href="https://ace-brain-team.github.io/ACE-Brain-0/">Project Page</a>]</p>
     <p style="margin: 6px 0;">Ziyang Gong, Zehang Luo, Anke Tang, Zhe Liu, Shi Fu, Zhi Hou, <strong>Ganlin Yang</strong>, ..., Hengshuang Zhao, Dacheng Tao, Xiaogang Wang</p>
     <p style="margin: 6px 0;">Summary: ACE-Brain-0 argues for spatial intelligence as a common abstraction across embodiments, enabling transfer of planning and control priors between heterogeneous robots.</p>
-  </div>
-</div>
-
-<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px; margin-bottom: 24px;">
-  <div style="width: 28%; min-width: 220px;">
-    <img src="../files/ganlin/eventvla.jpg" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
-  </div>
-  <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
-    <h3 style="margin-top: 0; font-size: 18px;">EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies</h3>
-    <p style="margin: 6px 0;"><i>CoRL 2026</i> | [<a href="https://arxiv.org/abs/2606.20092">Paper</a>] [<a href="https://github.com/InternRobotics/EventVLA">GitHub</a>] [<a href="https://ganlin-yang.github.io/EventVLA.github.io/">Project Page</a>]</p>
-    <p style="margin: 6px 0;"><strong>Ganlin Yang*</strong>, Zhangzheng Tu*, Yuqiang Yang*, Sitong Mao, Junyi Dong, Tianxing Chen, Jiaqi Peng, Jing Xiong, Jiafei Cao, Jifeng Dai, Wengang Zhou, Yao Mu, Tai Wang.</p>
-    <p style="margin: 6px 0;">Summary: EventVLA introduces event-driven memory updates to preserve key visual evidence during long-horizon interaction, improving temporal consistency and policy robustness.</p>
   </div>
 </div>
 
