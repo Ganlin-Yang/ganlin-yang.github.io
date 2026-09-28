@@ -128,7 +128,7 @@ Before these directions, I also worked on 3D reconstruction and neural rendering
   <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
     <h3 style="margin-top: 0; font-size: 18px;">Visual Embodied Brain-1.5: Enhanced Perception, Spatial Reasoning and Robot Control in Spaces</h3>
     <p style="margin: 6px 0;"><i>IEEE TPAMI 2026</i> | [<a href="https://ieeexplore.ieee.org/abstract/document/11668701">Paper</a>]</p>
-    <p style="margin: 6px 0;"><strong>Ganlin Yang</strong>, Gen Luo, Ziyang Gong, Guanzhou Chen, ..., Yu Qiao, Wenhai Wang, Xizhou Zhu, Jifeng Dai</p>
+    <p style="margin: 6px 0;"><strong>Ganlin Yang*</strong>, Gen Luo*, Ziyang Gong*, Guanzhou Chen*, ..., Yu Qiao, Wenhai Wang, Xizhou Zhu, Jifeng Dai</p>
     <p style="margin: 6px 0;">Summary: VeBrain-1.5 extends the unified perception–reasoning–control framework with a shared MLLM decision interface, VeBrain-1M data, and offline RL with verifiable rewards, improving success on both legged robots and robotic arms.</p>
   </div>
 </div>
@@ -142,6 +142,18 @@ Before these directions, I also worked on 3D reconstruction and neural rendering
     <p style="margin: 6px 0;"><i>CoRL 2026</i> | [<a href="https://arxiv.org/abs/2606.20092">Paper</a>] [<a href="https://github.com/InternRobotics/EventVLA">GitHub</a>] [<a href="https://ganlin-yang.github.io/EventVLA.github.io/">Project Page</a>]</p>
     <p style="margin: 6px 0;"><strong>Ganlin Yang*</strong>, Zhangzheng Tu*, Yuqiang Yang*, Sitong Mao, Junyi Dong, Tianxing Chen, Jiaqi Peng, Jing Xiong, Jiafei Cao, Jifeng Dai, Wengang Zhou, Yao Mu, Tai Wang.</p>
     <p style="margin: 6px 0;">Summary: EventVLA introduces event-driven memory updates to preserve key visual evidence during long-horizon interaction, improving temporal consistency and policy robustness.</p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 100%; margin-top: 18px; margin-bottom: 24px;">
+  <div style="width: 28%; min-width: 220px;">
+    <img src="../files/ganlin/internw0.png" alt="paper teaser" style="width: 100%; height: auto; object-fit: contain;">
+  </div>
+  <div style="width: 72%; min-width: 320px; font-size: 14px; line-height: 1.5;">
+    <h3 style="margin-top: 0; font-size: 18px;">InternW0: A Foundational Physical World Model for Efficient Real-World Interactions</h3>
+    <p style="margin: 6px 0;"><i>Technical Report</i> | [<a href="https://arxiv.org/abs/2609.27656">Paper</a>] [<a href="https://internrobotics.github.io/internw0/">GitHub</a>] [<a href="https://internrobotics.github.io/internw0/">Project Page</a>]</p>
+    <p style="margin: 6px 0;">Jisong Cai*, Yao Mu*, <strong>Ganlin Yang*</strong>, Zhe Cao, Zhangzheng Tu, ..., Bowen Zhou, Bin Zhao, Tianfan Xue, Chunhua Shen, Weinan Zhang</p>
+    <p style="margin: 6px 0;">Summary: We introduce InternW0, the first instantiation of the InternW physical world model series from Shanghai AI Laboratory, built around omnimodal interfaces, asynchronous multi-frequency processing, and local physical modeling under partial observations and external influences.</p>
   </div>
 </div>
 
